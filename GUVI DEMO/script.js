@@ -57,8 +57,7 @@
 //     arr[i]=arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
 // }
 //    var result= arr.join(" ");
-//     return result;
-//    console.log(result));
+//    console.log(result);
 // })("hi myself barbie");
 
 //Arrow Function
@@ -124,6 +123,20 @@
 // } return res;
 // };
 // console.log(palindrome(arr));
+
+//Immediate Invoked Expression Function
+// var result=[];
+// var res=[];
+// (function(arr){
+// for(var i=0;i<=arr.length-1;i++)
+// {
+//     result.push(arr[i].split("").reverse().join(""));
+//     if(result[i]===arr[i]){
+//         res.push(result[i]);  
+//     }
+// } console.log(res);
+// })(["121","300","202","55","123"]);
+
  
 //Arrow Funtion
 // var result=[];
